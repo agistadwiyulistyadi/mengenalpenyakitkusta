@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoKusta - Pusat Edukasi dan Informasi Penyakit Kusta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER & NAVIGASI -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-icon">[+]</span>
+                <div>
+                    <h1>InfoKusta</h1>
+                    <p>Edukasi Penyakit Menular</p>
+                </div>
+            </div>
+            
+            <!-- Tombol Menu Mobile (Responsif) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Buka Menu">Menu</button>
+
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-target="home">Home</a></li>
+                    <li><a href="#profil" class="nav-link" data-target="profil">Profil Penyakit</a></li>
+                    <li><a href="#gejala" class="nav-link" data-target="gejala">Gejala Penyakit</a></li>
+                    <li><a href="#penyebab" class="nav-link" data-target="penyebab">Penyebab &amp; Penularan</a></li>
+                    <li><a href="#pencegahan" class="nav-link" data-target="pencegahan">Pencegahan</a></li>
+                    <li><a href="#penanganan" class="nav-link" data-target="penanganan">Penanganan</a></li>
+                    <li><a href="#konsultasi" class="nav-link" data-target="konsultasi">Konsultasi</a></li>
+                    <li><a href="#kontak" class="nav-link" data-target="kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <main class="container">
+
+        <!-- 1. MENU HOME -->
+        <section id="home" class="page-section active">
+            <div class="hero-box">
+                <div class="hero-text">
+                    <span class="badge">Edukasi Kesehatan Masyarakat</span>
+                    <h2>Mengenal Penyakit Kusta: Deteksi Dini, Sembuh Total Tanpa Cacat</h2>
+                    <p>
+                        Kusta (Morbus Hansen) adalah penyakit infeksi bakteri kronis yang dapat disembuhkan secara tuntas. 
+                        Mari hapus stigma dan pahami fakta medisnya agar masyarakat mendapatkan penanganan sejak dini.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onClick="bukaHalaman('profil')">Pelajari Selengkapnya</button>
+                        <button class="btn-secondary" onClick="bukaHalaman('konsultasi')">Tanya / Konsultasi</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+				    <img src="../../../Users/HP/Downloads/WhatsApp Image 2026-11-19 at 19.18.24.jpeg"
+                </div>
+            </div>
+
+            <div class="info-cards-grid">
+                <div class="card">
+                    <h3>Dapat Disembuhkan</h3>
+                    <p>Dengan pengobatan <em>Multi-Drug Therapy</em> (MDT) gratis di Puskesmas, kusta dapat sembuh 100%.</p>
+                </div>
+                <div class="card">
+                    <h3>Tidak Mudah Menular</h3>
+                    <p>95% manusia memiliki kekebalan alami terhadap bakteri kusta. Kusta tidak menular lewat jabatan tangan.</p>
+                </div>
+                <div class="card">
+                    <h3>Kenali Gejalanya</h3>
+                    <p>Bercak kulit menyerupai panu yang mati rasa (tidak terasa sakit, panas, atau dingin) adalah tanda awal utama.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. MENU PROFIL PENYAKIT -->
+        <section id="profil" class="page-section">
+            <div class="section-header">
+                <h2>Profil Penyakit Kusta</h2>
+                <p>Pengertian, karakteristik, dan informasi umum mengenai penyakit kusta.</p>
+            </div>
+            
+            <div class="content-box">
+                <div class="split-content">
+                    <div>
+                        <h3>Pengertian Penyakit Kusta</h3>
+                        <p>
+                            <strong>Kusta</strong> (disebut juga <em>Lepra</em> atau <em>Morbus Hansen</em>) adalah penyakit infeksi menular kronis yang disebabkan oleh bakteri <em>Mycobacterium leprae</em>. Penyakit ini terutama menyerang kulit, saraf tepi (perifer), mukosa saluran pernapasan atas, serta mata.
+                        </p>
+                        <h3>Karakteristik Penyakit</h3>
+                        <ul>
+                            <li><strong>Perkembangan Lambat (Kronis):</strong> Masa inkubasi bakteri sangat lama, rata-rata 2 hingga 5 tahun, bahkan bisa mencapai 20 tahun sebelum gejala muncul.</li>
+                            <li><strong>Menyerang Saraf Tepi:</strong> Ciri khas utamanya adalah hilangnya sensasi rasa (mati rasa) pada bercak kulit karena kerusakan saraf tepi.</li>
+                            <li><strong>Terbagi Menjadi 2 Tipe Utama (WHO):</strong> Tipe <em>Pausibasiler (PB)</em> atau kusta kering (bercak kurang dari atau sama dengan 5, tidak menular) dan Tipe <em>Multibasiler (MB)</em> atau kusta basah (bercak lebih dari 5, berpotensi menular jika tidak diobati).</li>
+                        </ul>
+                        <h3>Informasi Umum</h3>
+                        <p>
+                            Kusta bukan penyakit kutukan, bukan penyakit keturunan, dan bukan disebabkan oleh guna-guna. Di Indonesia, obat kusta disediakan secara <strong>gratis</strong> oleh pemerintah melalui fasilitas pelayanan kesehatan tingkat pertama (Puskesmas).
+                        </p>
+                    </div>
+                    <div class="side-img">
+					<img src="../../../Users/HP/Downloads/WhatsApp Image 2026-11-19 at 19.55.08.jpeg" 
+				   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. MENU GEJALA PENYAKIT -->
+        <section id="gejala" class="page-section">
+            <div class="section-header">
+                <h2>Tanda dan Gejala Penyakit Kusta</h2>
+                <p>Membedakan gejala awal dan gejala lanjutan untuk mencegah kecacatan.</p>
+            </div>
+
+            <div class="two-columns">
+                <div class="card border-pink">
+                    <span class="tag tag-info">Tahap Awal</span>
+                    <h3>Gejala Awal Kusta</h3>
+                    <p>Gejala awal sering kali tidak disadari karena tidak menimbulkan rasa sakit atau gatal:</p>
+                    <ul>
+                        <li>Muncul bercak pada kulit berwarna lebih terang (keputihan seperti panu) atau kemerahan.</li>
+                        <li><strong>Mati rasa (baal)</strong> pada bercak kulit tersebut (tidak terasa saat disentuh kapas, dicubit, atau terkena panas/dingin).</li>
+                        <li>Kulit pada area bercak terasa kering, kasar, dan tidak berkeringat.</li>
+                        <li>Rambut atau bulu pada area bercak rontok.</li>
+                    </ul>
+                </div>
+
+                <div class="card border-red">
+                    <span class="tag tag-danger">Tahap Lanjut</span>
+                    <h3>Gejala Lanjutan (Jika Tidak Diobati)</h3>
+                    <p>Apabila kerusakan saraf terus berlanjut tanpa pengobatan medis, dapat muncul gejala berikut:</p>
+                    <ul>
+                        <li>Penebalan pada saraf tepi (terutama di siku, lutut, dan leher) disertai nyeri saraf.</li>
+                        <li>Kelemahan otot pada tangan dan kaki (jari-jari tangan membengkok atau <em>claw hand</em>).</li>
+                        <li>Luka borok (ulkus) yang tidak kunjung sembuh di telapak kaki akibat mati rasa.</li>
+                        <li>Mata sulit menutup rapat sehingga berisiko menyebabkan kebutaan.</li>
+                        <li>Penebalan kulit wajah dan daun telinga (<em>facies leonina</em>).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. MENU PENYEBAB DAN PENULARAN -->
+        <section id="penyebab" class="page-section">
+            <div class="section-header">
+                <h2>Penyebab dan Cara Penularan</h2>
+                <p>Memahami bagaimana bakteri kusta menyebar dan siapa saja yang berisiko.</p>
+            </div>
+
+            <div class="content-box">
+                <h3>1. Penyebab Penyakit</h3>
+                <p>
+                    Penyakit kusta disebabkan oleh bakteri berbentuk batang tahan asam bernama <strong><em>Mycobacterium leprae</em></strong>. Bakteri ini pertama kali ditemukan oleh ilmuwan Norwegia, Gerhard Henrik Armauer Hansen, pada tahun 1873.
+                </p>
+
+                <h3>2. Cara Penularan</h3>
+                <p>
+                    Bakteri kusta menular melalui <strong>percikan cairan saluran pernapasan (droplet)</strong> dari hidung dan mulut penderita kusta tipe basah (Multibasiler) yang belum mendapatkan pengobatan. Penularan membutuhkan kontak erat dan berlangsung dalam waktu yang sangat lama (berbulan-bulan hingga bertahun-tahun).
+                </p>
+                <div class="alert-box">
+                    <strong>Penting Diketahui:</strong> Kusta TIDAK menular melalui bersalaman, berpelukan, duduk bersebelahan, makan bersama, atau menggunakan toilet yang sama. Penderita yang sudah minum obat MDT dosis pertama langsung kehilangan kemampuan menularkan bakteri hingga 99%.
+                </div>
+
+                <h3>3. Faktor Risiko Penularan</h3>
+                <ul>
+                    <li><strong>Kontak Serumah Jangka Panjang:</strong> Tinggal satu rumah dalam waktu lama dengan penderita kusta yang belum berobat.</li>
+                    <li><strong>Sistem Kekebalan Tubuh Lemah:</strong> Kondisi gizi buruk atau gangguan imunitas membuat tubuh rentan terinfeksi.</li>
+                    <li><strong>Lingkungan Padat dan Kurang Ventilasi:</strong> Sirkulasi udara yang buruk dan kurangnya paparan sinar matahari memudahkan bakteri bertahan di udara lembap.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 5. MENU PENCEGAHAN -->
+        <section id="pencegahan" class="page-section">
+            <div class="section-header">
+                <h2>Upaya Pencegahan Penyakit Kusta</h2>
+                <p>Langkah perlindungan diri, keluarga, dan lingkungan sekitar.</p>
+            </div>
+
+            <div class="info-cards-grid">
+                <div class="card">
+                    <h3>1. Deteksi Dini &amp; Pengobatan</h3>
+                    <p>Cara paling efektif memutus rantai penularan adalah menemukan penderita sejak dini dan segera memberinya pengobatan MDT agar bakteri tidak menyebar ke orang lain.</p>
+                </div>
+                <div class="card">
+                    <h3>2. Perilaku Hidup Bersih &amp; Sehat (PHBS)</h3>
+                    <p>Menerapkan etika batuk/bersin yang benar, mencuci tangan dengan sabun, mengonsumsi makanan bergizi seimbang untuk menjaga daya tahan tubuh, serta berolahraga teratur.</p>
+                </div>
+                <div class="card">
+                    <h3>3. Perlindungan Diri &amp; Lingkungan</h3>
+                    <p>Menjaga kebersihan rumah, memastikan setiap ruangan memiliki ventilasi udara yang baik, serta membuka jendela agar sinar matahari masuk (bakteri kusta mati terkena sinar UV matahari).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. MENU PENANGANAN -->
+        <section id="penanganan" class="page-section">
+            <div class="section-header">
+                <h2>Pemeriksaan dan Penanganan Medis</h2>
+                <p>Prosedur diagnosis dan pengobatan standar untuk kesembuhan pasien.</p>
+            </div>
+
+            <div class="content-box">
+                <h3>1. Informasi Pemeriksaan Penyakit</h3>
+                <p>Diagnosis kusta ditegakkan oleh tenaga medis melalui pemeriksaan tanda utama (<em>Cardinal Signs</em>):</p>
+                <ul>
+                    <li><strong>Pemeriksaan Fisik Kulit &amp; Saraf:</strong> Menguji kepekaan rasa pada bercak kulit (tes kapas, tusukan ringan, dan suhu) serta meraba pembesaran saraf tepi.</li>
+                    <li><strong>Pemeriksaan Bakterioskopis (Slit-Skin Smear):</strong> Pengambilan sampel kerokan jaringan kulit (biasanya dari cuping telinga atau tepi bercak) untuk diperiksa di bawah mikroskop.</li>
+                </ul>
+
+                <h3>2. Penanganan / Pengobatan Secara Medis</h3>
+                <p>
+                    Pengobatan standar dunia menggunakan metode <strong>MDT (<em>Multi-Drug Therapy</em>)</strong> yang mengombinasikan beberapa jenis antibiotik (<em>Rifampisin, Dapson, dan Klofazimin</em>) untuk membunuh bakteri dan mencegah resistensi obat:
+                </p>
+                <ul>
+                    <li><strong>Tipe Kusta Kering (PB):</strong> Lama pengobatan selama <strong>6 bulan</strong> (6 blister obat).</li>
+                    <li><strong>Tipe Kusta Basah (MB):</strong> Lama pengobatan selama <strong>12 bulan</strong> (12 blister obat).</li>
+                </ul>
+
+                <h3>3. Anjuran Pelayanan Kesehatan</h3>
+                <div class="alert-box success">
+                    Jika Anda atau anggota keluarga menemukan bercak kulit mati rasa yang tidak kunjung sembuh, segera periksakan diri ke <strong>Puskesmas atau Rumah Sakit terdekat</strong>. Seluruh pemeriksaan dan obat kusta di Puskesmas diberikan <strong>GRATIS</strong>. Jangan menghentikan obat sebelum dinyatakan sembuh oleh dokter.
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. MENU KONSULTASI (DENGAN VALIDASI JAVASCRIPT) -->
+        <section id="konsultasi" class="page-section">
+            <div class="section-header">
+                <h2>Formulir Konsultasi &amp; Permintaan Informasi</h2>
+                <p>Punya pertanyaan seputar gejala atau layanan pemeriksaan kusta? Silakan kirim pesan kepada tim edukasi kami.</p>
+            </div>
+
+            <div class="form-container">
+                <form id="formKonsultasi" novalidate>
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap <span class="req">*</span></label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap Anda">
+                        <small class="error-msg" id="errorNama"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Alamat Email <span class="req">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="contoh: nama@email.com">
+                        <small class="error-msg" id="errorEmail"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telepon">Nomor Telepon / WhatsApp <span class="req">*</span></label>
+                        <input type="tel" id="telepon" name="telepon" placeholder="Contoh: 081234567890">
+                        <small class="error-msg" id="errorTelepon"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan">Pertanyaan / Pesan Konsultasi <span class="req">*</span></label>
+                        <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan keluhan, pertanyaan, atau informasi yang ingin Anda ketahui..."></textarea>
+                        <small class="error-msg" id="errorPesan"></small>
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-full">Kirim Pertanyaan</button>
+                </form>
+
+                <div id="hasilKonsultasi" class="hasil-box" style="display: none;"></div>
+            </div>
+        </section>
+
+        <!-- 8. MENU KONTAK -->
+        <section id="kontak" class="page-section">
+            <div class="section-header">
+                <h2>Kontak Pengelola Website</h2>
+                <p>Hubungi kami untuk kerja sama edukasi kesehatan masyarakat atau informasi lebih lanjut.</p>
+            </div>
+
+            <div class="two-columns">
+                <div class="card">
+                    <h3>Informasi Kontak Resmi</h3>
+                    <ul class="contact-list">
+                        <li><strong>Alamat Pengelola:</strong><br>Unit Promosi Kesehatan &amp; Informasi Medis, Jl.KH Samanhudi No.93,Sondakan, Kec. Laweyan, Kota Surakarta, Jawa Tengah
+                        <li><strong>Email Resmi:</strong><br>edukasi@infokusta-sehat.id</li>
+                        <li><strong>Jam Layanan Informasi:</strong><br>Senin - Jumat, Pukul 08.00 - 16.00 WIB</li>
+                        <li><strong>Media Sosial:</strong><br>Instagram: @infokusta.id | Website: www.infokusta-sehat.id</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Layanan Darurat &amp; Rujukan</h3>
+                    <p>Untuk pemeriksaan klinis langsung dan pengambilan obat MDT gratis, masyarakat dianjurkan langsung mendatangi:</p>
+                    <ul>
+                        <li>Poli Umum / Poli Kulit &amp; Kelamin Puskesmas Kecamatan setempat.</li>
+                        <li>Kementerian Kesehatan RI Halo Kemenkes: <strong>1500-567</strong>.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER & SUMBER REFERENSI -->
+    <footer>
+        <div class="container footer-content">
+            <div class="referensi">
+                <h4>Sumber Referensi Informasi Kesehatan:</h4>
+                <ul>
+                    <li>Kementerian Kesehatan Republik Indonesia (Kemenkes RI). <em>Peraturan Menteri Kesehatan RI Nomor 11 Tahun 2019 tentang Penanggulangan Kusta</em>.</li>
+                    <li>World Health Organization (WHO). <em>Leprosy (Hansen's disease) Fact Sheet &amp; Guidelines for the Diagnosis, Treatment and Prevention of Leprosy</em>.</li>
+                    <li>Pusat Data dan Informasi Kemenkes RI. <em>Infodatin: Hapuskan Stigma dan Diskriminasi terhadap Kusta</em>.</li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Agista-250205003-Edukasi Kesehatan Penyakit Menular.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
